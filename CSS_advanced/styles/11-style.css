@@ -33,7 +33,7 @@ html {
     font-size: 62.5%;
 }
 
-body, a {
+body {
     color: var(--text-color);
     font-family: var(--font-family-base);
     font-size: var(--font-size-medium);
@@ -42,7 +42,7 @@ body, a {
 }
 
 a {
-
+        color: var(--text-color);   
 	text-decoration: none;
 }
 
@@ -62,7 +62,7 @@ a {
 .section-tagline {
 
 	color: var(--color-primary);
-	font-family: var(--font-famiy-title);
+	font-family: var(--font-family-title);
 	font-weight: var(--font-weight-bold);
 	text-transform: var(--section-tagline-transform);
 }
