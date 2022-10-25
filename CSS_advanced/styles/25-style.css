@@ -84,9 +84,9 @@ summary{display:list-item}template{display:none}[hidden]{display:none}
     --button-color: var(--color-black);
     --button-text-decoration: none;
     --button-font-size: var(--font-size-large);
+    --button-hover-color: var(--color-white);
     --button-hover-text-decoration: none;
     --button-hover-background: var(--color-primary);
-    --button-hover-color: var(--color-white);
     
 }
 
@@ -284,6 +284,7 @@ ul.row {
 	--text-color: var(--color-white);
 	--section-title-color: var(--color-white);
 	background-color: var(--color-black);
+	--button-color: var(--color-white);
 }
 
 .footer-address {
