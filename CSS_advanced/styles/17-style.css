@@ -119,6 +119,7 @@ a:active {
 .section-header {
 
 	text-align: var(--section-header-align);
+	padding: var(--section-header-padding);
 }
 
 .section-body {
@@ -137,6 +138,12 @@ a:active {
 	font-weight: var(--font-weight-bold);
 	margin: var(--section-title-margin);
 	color: var(--section-title-color);
+}
+
+.section-footer {
+
+	padding: var(--section-footer-padding);
+	text-align: var(--section-footer-align);
 }
 
 .section-tagline {
